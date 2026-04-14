@@ -1,0 +1,112 @@
+[
+  {
+    "Kabanata": 1,
+    "Question": "Ano ang iminungkahi ni Simoun upang mapabilis ang paglalakbay sa Ilog Pasig at maiwasan ang mga liku-liko nito?",
+    "Choices": {
+      "A": "Pagbili ng mas mabilis na bapor",
+      "B": "Paggawa ng isang tuwid na kanal na mag-uugnay sa lawa at dagat",
+      "C": "Pagtatanggal ng mga itik sa ilog",
+      "D": "Pagpapalalim sa putik ng ilog gamit ang mga bilanggo"
+    },
+    "Answer": "B"
+  },
+  {
+    "Kabanata": 2,
+    "Question": "Sa pakikipagtalo ni Isagani kay Simoun, ano ang kanyang inihambing sa tubig na kapag pinainit ay nagiging apoy na kayang pumatay?",
+    "Choices": {
+      "A": "Ang galit ng mga prayle",
+      "B": "Ang damdamin ng mga kabataan",
+      "C": "Ang alak at serbesa",
+      "D": "Ang pagnanais ng kalayaan"
+    },
+    "Answer": "B"
+  },
+  {
+    "Kabanata": 3,
+    "Question": "Bakit biglang namutla at nawalan ng kibo si Simoun habang naglalakbay sa lawa?",
+    "Choices": {
+      "A": "Dahil sa takot sa mga alamat ng prayle",
+      "B": "Dahil sa hilo sa pagbiyahe sa bapor",
+      "C": "Dahil nabanggit ang lugar kung saan napatay si Ibarra",
+      "D": "Dahil nakita niya ang multo ni Donya Geronima"
+    },
+    "Answer": "C"
+  },
+  {
+    "Kabanata": 4,
+    "Question": "Ano ang naging sakripisyo ni Juli upang matulungan ang kanyang amang si Kabesang Tales na nadakip ng mga tulisan?",
+    "Choices": {
+      "A": "Ibinenta niya ang kanyang mga alahas",
+      "B": "Nagpaalila siya kay Hermana Penchang",
+      "C": "Nagpakasal siya sa isang mayamang Kastila",
+      "D": "Ibinigay niya ang kanilang lupain sa mga prayle"
+    },
+    "Answer": "B"
+  },
+  {
+    "Kabanata": 5,
+    "Question": "Sino ang kutserong dumanas ng kalupitan ng mga guwardiya sibil sa gabi ng Noche Buena dahil sa nakalimutang sedula at namatay na ilaw?",
+    "Choices": {
+      "A": "Tandang Selo",
+      "B": "Basilio",
+      "C": "Sinong",
+      "D": "Tales"
+    },
+    "Answer": "C"
+  },
+  {
+    "Kabanata": 6,
+    "Question": "Saan nag-aral si Basilio at nagsumikap hanggang sa maging isang mahusay na estudyante ng medisina sa kabila ng pangungutya sa kanya?",
+    "Choices": {
+      "A": "Sa Unibersidad ng Santo Tomas lamang",
+      "B": "Sa San Juan de Letran at Ateneo",
+      "C": "Sa ibang bansa tulad ng Espanya",
+      "D": "Sa paaralan ng San Diego"
+    },
+    "Answer": "B"
+  },
+  {
+    "Kabanata": 7,
+    "Question": "Ano ang mahalagang lihim na natuklasan ni Basilio tungkol sa pagkatao ng mag-aalahas na si Simoun?",
+    "Choices": {
+      "A": "Siya ay isang espiya ng pamahalaan",
+      "B": "Siya ay ang nawawalang anak ni Tandang Selo",
+      "C": "Siya at si Crisostomo Ibarra ay iisang tao",
+      "D": "Siya ang pumatay sa kanyang ina"
+    },
+    "Answer": "C"
+  },
+  {
+    "Kabanata": 8,
+    "Question": "Anong malungkot na pangyayari ang sumimbolo sa kawalan ng katarungan at boses ng pamilya ni Tandang Selo sa araw ng Pasko?",
+    "Choices": {
+      "A": "Ang pagkasunog ng kanilang bahay",
+      "B": "Ang pagkapipi ni Tandang Selo",
+      "C": "Ang paglayas ni Juli",
+      "D": "Ang pagkamatay ni Basilio"
+    },
+    "Answer": "B"
+  },
+  {
+    "Kabanata": 9,
+    "Question": "Ilang araw ang ibinigay na taning kay Kabesang Tales upang lisanin ang kanyang tahanan matapos itong maangkin ng iba?",
+    "Choices": {
+      "A": "Isang linggo",
+      "B": "Sampung araw",
+      "C": "Isang buwan",
+      "D": "Tatlong araw"
+    },
+    "Answer": "D"
+  },
+  {
+    "Kabanata": 10,
+    "Question": "Ano ang kinuha ni Kabesang Tales mula kay Simoun bilang kapalit ng kanyang agnos bago siya sumapi sa mga tulisan?",
+    "Choices": {
+      "A": "Isang malaking brilyante",
+      "B": "Ang rebolber o baril ni Simoun",
+      "C": "Isang supot ng ginto",
+      "D": "Ang kabayo ni Simoun"
+    },
+    "Answer": "B"
+  }
+]

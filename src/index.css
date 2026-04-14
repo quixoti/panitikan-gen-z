@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "inter", sans-serif;
+}
+
+:root {
+  --bg-color: #faf9f6;
+  --card-bg: #ffffff;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #9ca3af;
+  --border-color: #f3f4f6;
+  --accent-bg: #f9fafb;
+  --shadow-color: rgba(0, 0, 0, 0.05);
+}
+
+.dark {
+  --bg-color: #0a0a0a;
+  --card-bg: #141414;
+  --text-primary: #f9fafb;
+  --text-secondary: #d1d5db;
+  --text-muted: #6b7280;
+  --border-color: #1f2937;
+  --accent-bg: #1a1a1a;
+  --shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+i {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+/* Dynamic Cursor-Following Tooltip */
+#custom-tooltip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 8px 14px;
+  background: #111827;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 99px;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease, visibility 0.15s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transform: translate(-100%, -120%); /* Position top-left of cursor */
+}
+
+#custom-tooltip.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dark #custom-tooltip {
+  background: #ffffff;
+  color: #000000;
+}
+
+/* Close Hint Animation */
+@keyframes arrow-bounce {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-10px); }
+}
+
+.close-hint {
+  position: absolute;
+  right: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  items-center: center;
+  gap: 12px;
+  background: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  z-index: 50;
+}
+
+.dark .close-hint {
+  background: #ffffff;
+  color: #000000;
+}
+
+.close-hint-arrow {
+  animation: arrow-bounce 1s infinite ease-in-out;
+  font-size: 14px;
+}
+
+.elegant-shadow {
+  box-shadow: 0 4px 20px var(--shadow-color);
+}
+
+/* Custom UI refinements for Dark Mode */
+.dark .elegant-shadow {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dark .glass-card {
+  background: rgba(20, 20, 20, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@layer utilities {
+  .gen-z-badge {
+    @apply px-3 py-1 text-xs font-semibold rounded-full bg-black text-white uppercase tracking-wider dark:bg-white dark:text-black;
+  }
+}
