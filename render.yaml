@@ -1,15 +1,9 @@
 services:
-  - type: static
+  - type: web
     name: panitikan-gen-z
-    env: static
+    runtime: static
     buildCommand: npm install && npm run build
-    publishPath: ./dist
-    routes:
-      # Rewrites all requests to index.html for SPA support
-      - type: rewrite
-        source: /*
-        destination: /index.html
-      # Ensures standalone files like elfili.html are still accessible if moved to public/
-      - type: rewrite
-        source: /elfili.html
-        destination: /elfili.html
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_VERSION
+        value: 20
